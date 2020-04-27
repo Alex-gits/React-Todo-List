@@ -26,7 +26,7 @@ const TaskItem = ( { task, deleteTask, makeTaskCompleted, makeTaskActive, isComp
         }
       </TaskButton>
       <TaskText>{task.text}</TaskText>
-      <DeleteIcon onClick={onDelete}>&#128473;</DeleteIcon>
+      <DeleteIcon onClick={onDelete}>✖</DeleteIcon>
     </TaskContainer>
   )
 };
