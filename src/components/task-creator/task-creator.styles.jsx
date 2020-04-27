@@ -6,6 +6,10 @@ export const TaskCreationWrapper = styled.div`
   -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.43);
   box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.43);
   background-color: #4b4b4b;
+
+  @media screen and (max-width: 600px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Title = styled.p`

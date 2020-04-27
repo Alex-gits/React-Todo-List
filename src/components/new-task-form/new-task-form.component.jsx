@@ -20,7 +20,7 @@ const NewTaskForm = ({ addNewTask }) => {
   const handleSubmit = event => {
     event.preventDefault();
 
-    if (text.length <= 1) {
+    if (text.length <= 0) {
       alert('Please enter task description')
       return;
     }

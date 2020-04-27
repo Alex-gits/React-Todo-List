@@ -8,4 +8,8 @@ export const TaskListWrapper = styled.div`
   background-color: #4b4b4b;
   padding: 10px 20px;
   font-family: 'Baloo Bhaina 2', cursive;
+
+  @media screen and (max-width: 400px) {
+    padding: 10px 10px;
+  }
 `;
