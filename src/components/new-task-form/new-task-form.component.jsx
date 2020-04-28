@@ -37,7 +37,7 @@ const NewTaskForm = ({ addNewTask }) => {
         <Placeholder className='input-placeholder' text={taskInfo.text}>Write your task here...</Placeholder>
         <TaskInput type="text" name="text" value={text} onChange={handleChange} maxLength='50'/>
       </TextWrapper>
-      <SubmitButton type='submit'>Done!</SubmitButton>
+      <SubmitButton type='submit'>Add!</SubmitButton>
     </Form>
   </FromContainer>
   )

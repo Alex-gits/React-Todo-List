@@ -3,8 +3,17 @@ import styled from 'styled-components';
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
+export const ButtonWrapper = styled.div`
+  @media screen and (max-width: 500px) {
+    order: 1;
+  }
+`;
 export const ContentWrapper = styled.div``;
 
 export const FilterButton = styled.button`
