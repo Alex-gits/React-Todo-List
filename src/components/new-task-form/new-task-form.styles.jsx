@@ -73,6 +73,6 @@ export const SubmitButton = styled.button`
 
   &:hover {
     border: 2px solid #f7d794;
-    background-color: darken($color: #c44569, $amount: 10);
+    background-color: #a33453;
   }
 `;
