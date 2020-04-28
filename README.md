@@ -1,6 +1,6 @@
 ### ToDo List app made with React.js, Redux and Styled Components.
 
-### It was deployed to Heroku. You can check it [online](http://mygits-todo.herokuapp.com/)
+It was deployed to Heroku. You can check it [online](http://mygits-todo.herokuapp.com/)
 
 ![screenshot of sample](https://i.gyazo.com/6c7acfa15829e146b78e8a7378faf2da.png) 
 
